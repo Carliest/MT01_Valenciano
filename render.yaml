@@ -4,11 +4,6 @@ services:
     env: node
     plan: free
     buildCommand: npm install
-    startCommand: node server.js
-    envVars:
-      - key: MONGODB_URI
-        value: your-mongodb-uri-here
-      - key: PORT
-        value: 3000
+    startCommand: npm start
     autoDeploy: true
     branch: main
