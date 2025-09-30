@@ -13,5 +13,5 @@ services:
       - key: PORT
         value: 3000
       - key: MONGODB_URI
-        value: mongodb+srv://Carliest:Carlvalenciano25@cluster0.hh3eumt.mongodb.net/?ssl=true&authSource=admin
+        value: mongodb+srv://Carliest:Carlvalenciano25@cluster1.hh3eumt.mongodb.net/?ssl=true&authSource=admin
     autoDeploy: true
