@@ -4,6 +4,14 @@ services:
     env: node
     plan: free
     buildCommand: npm install
-    startCommand: npm start
+    startCommand: npm start.js
     autoDeploy: true
     branch: main
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 3000
+      - key: MONGODB_URI
+        value: mongodb+srv://Carliest:Carlvalenciano25@cluster0.hh3eumt.mongodb.net/?ssl=true&authSource=admin
+    autoDeploy: true
